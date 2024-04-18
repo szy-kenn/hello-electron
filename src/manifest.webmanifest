@@ -1,0 +1,8 @@
+{
+  "name": "Electron",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "theme_color": "red"
+}

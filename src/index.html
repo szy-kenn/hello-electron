@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  />
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <title>Electron</title>
+</head>
+<body>
+  <div id="titlebarContainer">
+    <div id="titlebar" class="draggable">
+      <span class="draggable">Mesh-Based File Manager</span>
+    </div>
+  </div>
+
+  <div id="mainContent">
+    <h1>Hello Electron!!!</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+  </div>
+  <script src="./renderer.js"></script>
+</body>
+</html>
